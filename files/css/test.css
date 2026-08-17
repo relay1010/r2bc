@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+  border-left:5px solid #FFC928;
+}
+header .row , footer .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+section{
+  background:#F7F7F7;
+}
+section h1{
+  font-size: 32px;
+  color: #3C3C3C;
+  font-weight: 700;
+}
+section .form p{
+  color:#3C3C3C;
+  font-size:23px;
+  font-weight: 500;
+}
+section h4{
+  font-size:18px;
+  color:#3C3C3C;
+  font-weight: 600;
+}
+section .bttn button {
+  font-weight: 700;
+  font-size:18px;
+}
+section .form{
+  border-radius:10px;
+  border-left: 7px solid #FFC928;
+}
+section .frais{
+  padding:0 70px;
+}
+section .frais span{
+  font-size:13px;
+  color:#3C3C3C;
+  font-weight: 500;
+}
+section .frais p{
+  font-size:14px;
+  color:#AE1B02;
+  font-weight: 600;
+}
+.enga{
+  background: #fbfbfb;
+  max-width: 1152px;
+  border: 1px solid #d1d1cd;
+  margin:0 auto;
+}
+.enga #img-card li{
+  margin-left: 20px;
+}
+.form-group{
+  position: relative;
+}
+.i{
+  position: absolute;
+  top:7px;
+  left: 10px;
+}
+.i i{
+  font-size:20px;
+}
+footer{
+  background:#363635;
+  color:#fff;
+}
+footer .footer{
+  max-width:1200px;
+  margin:0 auto;
+}
+.sms{
+  max-width:600px;
+  margin:0 auto;
+  margin-top: 100px;
+}
+
+.error{
+  font-size:13px;
+  color:#cc1d1d;
+}
+
+@media(max-width: 750px){
+  #com{
+    width: 50%;
+  }
+}
